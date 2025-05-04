@@ -1,0 +1,82 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+.upload-form {
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+[data-bs-theme="light"] .upload-form {
+    background: #f8f9fa;
+}
+
+[data-bs-theme="dark"] .upload-form {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar {
+    border-radius: 5px;
+    min-height: 400px;
+}
+
+.sidebar h5 {
+    color: #343a40;
+    margin-bottom: 15px;
+}
+
+[data-bs-theme="dark"] .sidebar h5 {
+    color: #ffffff;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 25px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    margin-top: 30px;
+}
+
+.btn i {
+    margin-right: 5px;
+}
+
+/* Dark theme specific styles */
+[data-bs-theme="dark"] .navbar-dark {
+    background-color: #212529 !important;
+}
+
+[data-bs-theme="dark"] .alert-info {
+    --bs-alert-color: #70bfe9;
+    --bs-alert-bg: #052c65;
+    --bs-alert-border-color: #041e42;
+}
+
+#themeToggle {
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+}
+
+#themeToggle i {
+    margin: 0;
+}

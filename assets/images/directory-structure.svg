@@ -1,0 +1,52 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">IFC File Converter - Project Structure</text>
+  
+  <!-- Main project folder -->
+  <rect x="30" y="60" width="740" height="520" rx="10" fill="#ffffff" stroke="#dee2e6" stroke-width="2"/>
+  <text x="40" y="85" font-family="Arial, sans-serif" font-size="16" font-weight="bold">📁 project/</text>
+  
+  <!-- Files -->
+  <line x1="60" y1="100" x2="60" y2="550" stroke="#dee2e6" stroke-width="1"/>
+  
+  <!-- Root files -->
+  <text x="70" y="115" font-family="Arial, sans-serif" font-size="14">📄 index.php</text>
+  <text x="70" y="135" font-family="Arial, sans-serif" font-size="14">📄 upload.php</text>
+  <text x="70" y="155" font-family="Arial, sans-serif" font-size="14">📄 download.php</text>
+  <text x="70" y="175" font-family="Arial, sans-serif" font-size="14">📄 config.php</text>
+  <text x="70" y="195" font-family="Arial, sans-serif" font-size="14">📄 README.md</text>
+  
+  <!-- includes folder -->
+  <rect x="70" y="215" width="700" height="90" rx="5" fill="#e9ecef"/>
+  <text x="80" y="235" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📁 includes/</text>
+  <text x="100" y="255" font-family="Arial, sans-serif" font-size="13">📄 header.php</text>
+  <text x="100" y="275" font-family="Arial, sans-serif" font-size="13">📄 footer.php</text>
+  <text x="100" y="295" font-family="Arial, sans-serif" font-size="13">📄 sidebar.php</text>
+  
+  <!-- assets folder -->
+  <rect x="70" y="320" width="700" height="120" rx="5" fill="#e9ecef"/>
+  <text x="80" y="340" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📁 assets/</text>
+  <rect x="90" y="355" width="660" height="35" rx="3" fill="#f1f3f5"/>
+  <text x="100" y="375" font-family="Arial, sans-serif" font-size="13">📁 css/</text>
+  <text x="140" y="375" font-family="Arial, sans-serif" font-size="12">📄 style.css</text>
+  
+  <rect x="90" y="395" width="660" height="35" rx="3" fill="#f1f3f5"/>
+  <text x="100" y="415" font-family="Arial, sans-serif" font-size="13">📁 js/</text>
+  <text x="140" y="415" font-family="Arial, sans-serif" font-size="12">📄 script.js</text>
+  
+  <!-- images folder -->
+  <rect x="70" y="455" width="700" height="90" rx="5" fill="#e9ecef"/>
+  <text x="80" y="475" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📁 images/</text>
+  <text x="100" y="495" font-family="Arial, sans-serif" font-size="13">🖼️ logo.svg</text>
+  <text x="100" y="515" font-family="Arial, sans-serif" font-size="13">🖼️ favicon.svg</text>
+  <text x="100" y="535" font-family="Arial, sans-serif" font-size="13">🖼️ rvt-icon.svg / dwg-icon.svg / dxf-icon.svg / ifc-icon.svg</text>
+  
+  <!-- Dynamic folders -->
+  <text x="70" y="565" font-family="Arial, sans-serif" font-size="14">📁 uploads/ (created dynamically)</text>
+  <text x="550" y="565" font-family="Arial, sans-serif" font-size="12" fill="#6c757d">[temporary storage]</text>
+  
+  <text x="70" y="580" font-family="Arial, sans-serif" font-size="14">📁 converted/ (created dynamically)</text>
+  <text x="550" y="580" font-family="Arial, sans-serif" font-size="12" fill="#6c757d">[temporary storage]</text>
+</svg>
